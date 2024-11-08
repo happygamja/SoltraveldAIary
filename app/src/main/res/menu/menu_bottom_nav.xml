@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/fragment_home"
+        android:id="@+id/ListFragment"
         android:title="스토리"
-        android:icon="@drawable/book"/>
+        android:icon="@drawable/ebook"/>
     <item
-        android:id="@+id/fragment_search"
+        android:id="@+id/MakeFragment"
         android:title="스토리 만들기"
         android:icon="@drawable/diary"/>
     <item
-        android:id="@+id/fragment_favorite"
+        android:id="@+id/SaveFragment"
         android:title="설정"
         android:icon="@drawable/web_settings"/>
 </menu>

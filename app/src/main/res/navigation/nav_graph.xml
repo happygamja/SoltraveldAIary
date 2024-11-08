@@ -3,26 +3,27 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/FirstFragment">
+    app:startDestination="@id/ListFragment">
 
     <fragment
-        android:id="@+id/FirstFragment"
-        android:name="com.example.soltraveldaiary.FirstFragment"
-        android:label="@string/first_fragment_label"
-        tools:layout="@layout/fragment_first">
-
-        <action
-            android:id="@+id/action_FirstFragment_to_SecondFragment"
-            app:destination="@id/SecondFragment" />
+        android:id="@+id/ListFragment"
+        android:name="com.example.soltraveldaiary.ListFragment"
+        android:label="fragment_list"
+        tools:layout="@layout/fragment_list">
     </fragment>
+
     <fragment
-        android:id="@+id/SecondFragment"
-        android:name="com.example.soltraveldaiary.SecondFragment"
-        android:label="@string/second_fragment_label"
-        tools:layout="@layout/fragment_second">
-
-        <action
-            android:id="@+id/action_SecondFragment_to_FirstFragment"
-            app:destination="@id/FirstFragment" />
+        android:id="@+id/MakeFragment"
+        android:name="com.example.soltraveldaiary.MakeFragment"
+        android:label="fragment_make"
+        tools:layout="@layout/fragment_make">
     </fragment>
+
+    <fragment
+        android:id="@+id/SaveFragment"
+        android:name="com.example.soltraveldaiary.SaveFragment"
+        android:label="fragment_save"
+        tools:layout="@layout/fragment_save">
+    </fragment>
+
 </navigation>
